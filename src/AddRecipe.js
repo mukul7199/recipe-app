@@ -29,7 +29,14 @@ export default class AddRecipe extends Component {
         steps: this.state.steps,
         image: this.state.image
       })
-    }).then(recipe => console.log(recipe));
+    }).then(recipe => {
+      this.setState({
+        title: "",
+        steps: "",
+        ingredients: "",
+        image: ""
+      });
+    });
   };
 
   render() {
