@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import { Modal, Button } from "react-materialize";
 const Navbar = () => {
   return (
     <div>
@@ -20,6 +20,9 @@ const Navbar = () => {
               </li>
               <li>
                 <Link to="/recipes/add">Add Recipe</Link>
+              </li>
+              <li>
+                <Link to="/signup">Signup</Link>
               </li>
             </ul>
           </div>

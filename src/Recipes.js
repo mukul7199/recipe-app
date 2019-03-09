@@ -54,8 +54,8 @@ class Recipes extends React.Component {
       ));
     } else
       return (
-        <div class="progress brown lighten-3">
-          <div class="indeterminate brown darken-3" />
+        <div className="progress brown lighten-3">
+          <div className="indeterminate brown darken-3" />
         </div>
       );
   }

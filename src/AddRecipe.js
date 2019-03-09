@@ -69,7 +69,7 @@ export default class AddRecipe extends Component {
             placeholder="Add Image"
           />
           <button
-            className="waves-effect waves-light pulse btn brown darken-5"
+            className="waves-effect btn brown darken-5"
             onClick={this.handleSubmit}
           >
             <i className="material-icons left">book</i>
