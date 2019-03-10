@@ -32,7 +32,7 @@ const Slid = () => {
             <div className="col s12 m4">
               <div className="card-panel brown lighten-2 black-text">
                 <i className="fa fa-users fa-3x deep-cyan-text text-darken-2 medium" />
-                <h4>free Account</h4>
+                <h4>Free Account</h4>
               </div>
             </div>
 
@@ -59,7 +59,7 @@ const Slid = () => {
       <div className="container">
         <div className="row">
           <div className="col s12 m6">
-            <p className="flow-text">
+            <p className="flow-text white-text ">
               “One of the very nicest things about life is the way we must
               regularly stop whatever it is we are doing and devote our
               attention to eating.” – Luciano Pavarotti

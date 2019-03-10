@@ -32,42 +32,48 @@ export default class Signup extends Component {
 
   render() {
     return (
-      <div className="container col s12" style={{ display: "block" }}>
+      <div className="container" style={{ marginTop: "50px", width: "700px" }}>
         <h3 className="white-text darken-2 center">
-          Signup
-          <span className="black-text darken-2"> Add Your Own Recipes</span>
+          Create
+          <span className="black-text darken-2"> An Account</span>
         </h3>
-        <form>
-          <input
-            type="text"
-            name="username"
-            value={this.state.username}
-            onChange={this.handleChange}
-            placeholder="Username"
-          />
-          <input
-            type="text"
-            name="email"
-            value={this.state.email}
-            onChange={this.handleChange}
-            placeholder="email"
-          />
-          <input
-            type="text"
-            name="password"
-            value={this.state.password}
-            onChange={this.handleChange}
-            placeholder="passeord"
-            rows="20"
-          />
-          <button
-            className="waves-effect btn brown darken-5"
-            onClick={this.handleSubmit}
-          >
-            <i className="material-icons left">book</i>
-            Submit
-          </button>
-        </form>
+        <br />
+        <div className="col s12 m6">
+          <div className="card-panel grey lighten-4 grey-text-darken-4 z-depth-0">
+            <form>
+              <input
+                type="text"
+                name="username"
+                value={this.state.username}
+                onChange={this.handleChange}
+                placeholder="Username"
+              />
+              <input
+                type="text"
+                name="email"
+                value={this.state.email}
+                onChange={this.handleChange}
+                placeholder="email"
+              />
+              <input
+                type="text"
+                name="password"
+                value={this.state.password}
+                onChange={this.handleChange}
+                placeholder="password"
+                rows="20"
+              />
+              <br />
+              <button
+                className="waves-effect btn brown darken-5"
+                onClick={this.handleSubmit}
+              >
+                <i className="material-icons left">book</i>
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
       </div>
     );
   }
