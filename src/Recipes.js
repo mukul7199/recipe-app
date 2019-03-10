@@ -24,7 +24,6 @@ class Recipes extends React.Component {
       return this.state.recipes.map(recipe => (
         <div className="app-header">
           <div key={recipe._id} className="container brown-text ">
-            <h2 className="white-text darken-2 center">{recipe.title}</h2>
             <Card
               className="col s12 m6 brown-text"
               header={<CardTitle reveal image={recipe.image} waves="light" />}
