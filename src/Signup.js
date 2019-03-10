@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 import "./App.css";
-export default class AddRecipe extends Component {
+export default class Signup extends Component {
   state = {
-    title: "",
-    ingredients: "",
-    steps: "",
-    image: ""
+    username: "",
+    email: "",
+    password: ""
   };
 
   handleChange = event => {
@@ -17,56 +16,49 @@ export default class AddRecipe extends Component {
 
   handleSubmit = event => {
     event.preventDefault();
-    fetch("https://recipe-api-123.herokuapp.com/recipes", {
+    fetch("https://recipe-api-123.herokuapp.com/users/signup", {
       method: "POST",
       headers: {
         Accept: "application/json",
         "Content-type": "application/json"
       },
       body: JSON.stringify({
-        title: this.state.title,
-        ingredients: this.state.ingredients,
-        steps: this.state.steps,
-        image: this.state.image
+        username: this.state.username,
+        email: this.state.email,
+        password: this.state.password
       })
-    }).then(recipe => console.log(recipe));
+    }).then(response => console.log(response.user));
   };
 
   render() {
     return (
       <div className="container col s12" style={{ display: "block" }}>
         <h3 className="white-text darken-2 center">
-          Fill The Given Form &
+          Signup
           <span className="black-text darken-2"> Add Your Own Recipes</span>
         </h3>
         <form>
           <input
             type="text"
-            name="title"
-            value={this.state.title}
+            name="username"
+            value={this.state.username}
             onChange={this.handleChange}
-            placeholder="Title"
+            placeholder="Username"
           />
           <input
             type="text"
-            name="ingredients"
-            value={this.state.ingredients}
+            name="email"
+            value={this.state.email}
             onChange={this.handleChange}
-            placeholder="Ingredients (comma separated)"
+            placeholder="email"
           />
-          <textarea
-            name="steps"
-            value={this.state.steps}
+          <input
+            type="text"
+            name="password"
+            value={this.state.password}
             onChange={this.handleChange}
-            placeholder="Steps"
+            placeholder="passeord"
             rows="20"
-          />
-          <input
-            type="text"
-            name="image"
-            value={this.state.image}
-            onChange={this.handleChange}
-            placeholder="Add Image"
           />
           <button
             className="waves-effect btn brown darken-5"
