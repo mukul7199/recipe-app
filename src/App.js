@@ -5,7 +5,6 @@ import Navbar from "./Navbar";
 import Recipes from "./Recipes";
 import Home from "./Home";
 import AddRecipe from "./AddRecipe";
-import Slid from "./Slider";
 
 class App extends Component {
   render() {
