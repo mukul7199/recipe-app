@@ -36,46 +36,51 @@ export default class AddRecipe extends Component {
     return (
       <div className="container col s12" style={{ display: "block" }}>
         <h3 className="white-text darken-2 center">
-          Fill The Given Form &
+          Fill The Given Form To
           <span className="black-text darken-2"> Add Your Own Recipes</span>
         </h3>
-        <form>
-          <input
-            type="text"
-            name="title"
-            value={this.state.title}
-            onChange={this.handleChange}
-            placeholder="Title"
-          />
-          <input
-            type="text"
-            name="ingredients"
-            value={this.state.ingredients}
-            onChange={this.handleChange}
-            placeholder="Ingredients (comma separated)"
-          />
-          <textarea
-            name="steps"
-            value={this.state.steps}
-            onChange={this.handleChange}
-            placeholder="Steps"
-            rows="20"
-          />
-          <input
-            type="text"
-            name="image"
-            value={this.state.image}
-            onChange={this.handleChange}
-            placeholder="Add Image"
-          />
-          <button
-            className="waves-effect btn brown darken-5"
-            onClick={this.handleSubmit}
-          >
-            <i className="material-icons left">book</i>
-            Submit
-          </button>
-        </form>
+        <br />
+        <div className="col s12 m6">
+          <div className="card-panel grey lighten-4 grey-text-darken-4 z-depth-0">
+            <form>
+              <input
+                type="text"
+                name="title"
+                value={this.state.title}
+                onChange={this.handleChange}
+                placeholder="Title"
+              />
+              <input
+                type="text"
+                name="ingredients"
+                value={this.state.ingredients}
+                onChange={this.handleChange}
+                placeholder="Ingredients (comma separated)"
+              />
+              <textarea
+                name="steps"
+                value={this.state.steps}
+                onChange={this.handleChange}
+                placeholder="Steps"
+                rows="20"
+              />
+              <input
+                type="text"
+                name="image"
+                value={this.state.image}
+                onChange={this.handleChange}
+                placeholder="Add Image"
+              />
+              <button
+                className="waves-effect btn brown darken-5"
+                onClick={this.handleSubmit}
+              >
+                <i className="material-icons left">book</i>
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
       </div>
     );
   }

@@ -10,7 +10,7 @@ const Follow = () => {
             <a
               href="https://facebook.com"
               target="_blank"
-              rel="no opener no referrer"
+              rel="noopener noreferrer"
               className="white-text"
             >
               <i className="fab fa-facebook fa-4x" />
@@ -18,7 +18,7 @@ const Follow = () => {
             <a
               href="https://twiiter.com"
               target="_blank"
-              rel="no opener no referrer"
+              rel="noopener noreferrer"
               className="white-text"
             >
               <i className="fab fa-twitter fa-4x" />
@@ -26,7 +26,7 @@ const Follow = () => {
             <a
               href="https://linkedin.com"
               target="_blank"
-              rel="no opener no referrer"
+              rel="noopener noreferrer"
               className="white-text"
             >
               <i className="fab fa-linkedin fa-4x" />
@@ -34,17 +34,18 @@ const Follow = () => {
             <a
               href="https://googleplus.com"
               target="_blank"
-              rel="no opener no referrer"
+              rel="noopener noreferrer"
               className="white-text"
             >
               <i className="fab fa-google-plus fa-4x " />
             </a>
             <a
-              href="https://pinterest.com"
+              href="https://github.com"
               target="_blank"
+              rel="noopener noreferrer"
               className="white-text"
             >
-              <i className="fab fa-pinterest fa-4x" />
+              <i className="fab fa-github fa-4x" />
             </a>
           </div>
         </div>
