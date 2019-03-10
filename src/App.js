@@ -5,6 +5,7 @@ import Navbar from "./Navbar";
 import Recipes from "./Recipes";
 import Home from "./Home";
 import AddRecipe from "./AddRecipe";
+import Signup from "./Signup";
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
 
             <Route exact path="/recipes" component={Recipes} />
             <Route path="/recipes/add" component={AddRecipe} />
+            <Route path="/signup" component={Signup} />
           </Switch>
         </div>
       </BrowserRouter>

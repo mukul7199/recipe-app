@@ -9,7 +9,7 @@ import brunch from "./images/brunch.jpg";
 const Slid = () => {
   return (
     <div>
-      <Slider className="black-text ">
+      <Slider classNameName="black-text ">
         <Slide
           src="http://lorempixel.com/1000/800/food/1"
           title="Delicious Food, Happy Mood!"
@@ -26,26 +26,26 @@ const Slid = () => {
         />
       </Slider>
 
-      <div class="section section-icons center ">
-        <div class="container">
-          <div class="row ">
-            <div class="col s12 m4">
-              <div class="card-panel brown lighten-2 black-text">
-                <i class="fa fa-users fa-3x deep-cyan-text text-darken-2 medium" />
+      <div className="section section-icons center ">
+        <div className="container">
+          <div className="row ">
+            <div className="col s12 m4">
+              <div className="card-panel brown lighten-2 black-text">
+                <i className="fa fa-users fa-3x deep-cyan-text text-darken-2 medium" />
                 <h4>free Account</h4>
               </div>
             </div>
 
-            <div class="col s12 m4">
-              <div class="card-panel brown lighten-2 black-text">
-                <i class="fa fa-utensils fa-3x deep-cyan-text text-darken-2 medium" />
+            <div className="col s12 m4">
+              <div className="card-panel brown lighten-2 black-text">
+                <i className="fa fa-utensils fa-3x deep-cyan-text text-darken-2 medium" />
                 <h4>View Recipes</h4>
               </div>
             </div>
 
-            <div class="col s12 m4">
-              <div class="card-panel brown lighten-2 black-text">
-                <i class="fa fa-hamburger fa-3x deep-cyan-text text-darken-2 medium" />
+            <div className="col s12 m4">
+              <div className="card-panel brown lighten-2 black-text">
+                <i className="fa fa-hamburger fa-3x deep-cyan-text text-darken-2 medium" />
 
                 <h4>Add Recipes</h4>
               </div>
@@ -56,37 +56,37 @@ const Slid = () => {
 
       <br />
 
-      <div class="container">
-        <div class="row">
-          <div class="col s12 m6">
-            <p class="flow-text">
+      <div className="container">
+        <div className="row">
+          <div className="col s12 m6">
+            <p className="flow-text">
               “One of the very nicest things about life is the way we must
               regularly stop whatever it is we are doing and devote our
               attention to eating.” – Luciano Pavarotti
             </p>
           </div>
-          <div class="col s12 m6">
-            <img src={brunch} alt="" class="circle responsive-img" />
+          <div className="col s12 m6">
+            <img src={brunch} alt="" className="circle responsive-img" />
           </div>
         </div>
       </div>
 
       <br />
 
-      <div id="popular" class="section section-popular scrollspy">
-        <div class="container">
-          <div class="row">
-            <h3 class="center">
-              <span class="white-text">Popular </span>
+      <div id="popular" className="section section-popular scrollspy">
+        <div className="container">
+          <div className="row">
+            <h3 className="center">
+              <span className="white-text">Popular </span>
               Dishes
             </h3>
-            <div class="col s12 m4">
-              <div class="card">
-                <div class="card-image">
+            <div className="col s12 m4">
+              <div className="card">
+                <div className="card-image">
                   <img src={pizza} alt="" />
-                  <span class="card-title">Pizza</span>
+                  <span className="card-title">Pizza</span>
                 </div>
-                <div class="card-content">
+                <div className="card-content">
                   <p>
                     Pizza is a savory dish of Italian origin, consisting of a
                     usually round, flattened base of leavened wheat-based dough
@@ -97,13 +97,13 @@ const Slid = () => {
                 </div>
               </div>
             </div>
-            <div class="col s12 m4">
-              <div class="card">
-                <div class="card-image">
+            <div className="col s12 m4">
+              <div className="card">
+                <div className="card-image">
                   <img src={pancake} alt="" />
-                  <span class="card-title">Pancake</span>
+                  <span className="card-title">Pancake</span>
                 </div>
-                <div class="card-content">
+                <div className="card-content">
                   <p>
                     A pancake is a flat cake, often thin and round, prepared
                     from a starch-based batter that may contain eggs, milk and
@@ -115,13 +115,13 @@ const Slid = () => {
                 </div>
               </div>
             </div>
-            <div class="col s12 m4">
-              <div class="card">
-                <div class="card-image">
+            <div className="col s12 m4">
+              <div className="card">
+                <div className="card-image">
                   <img src={burrito} alt="" />
-                  <span class="card-title">Burrito</span>
+                  <span className="card-title">Burrito</span>
                 </div>
-                <div class="card-content">
+                <div className="card-content">
                   <p>
                     A burrito is a dish in Mexican and Tex-Mex cuisine that
                     consists of a flour tortilla with various other ingredients.
