@@ -40,7 +40,7 @@ const Follow = () => {
               <i className="fab fa-google-plus fa-4x " />
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/mukul7199/recipe-app"
               target="_blank"
               rel="noopener noreferrer"
               className="white-text"
