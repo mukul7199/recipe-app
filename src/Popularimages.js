@@ -1,97 +1,97 @@
 import React from "react";
 const Popularimages = () => {
   return (
-    <div id="gallery" class="section section-gallery scrollspy">
-      <div class="container">
-        <h3 class="center">
-          <span class="white-text">Photo</span> Gallery
+    <div id="gallery" className="section section-gallery scrollspy">
+      <div className="container">
+        <h3 className="center">
+          <span className="white-text">Photo</span> Gallery
         </h3>
-        <div class="row">
-          <div class="col s12 m3">
+        <div className="row">
+          <div className="col s12 m3">
             <img
-              class="materialboxed responsive-img"
-              src="https://source.unsplash.com/random/1600x900/?food"
+              className="materialboxed responsive-img"
+              src="https://source.unsplash.com/random/800x400/?food"
               alt=""
             />
           </div>
-          <div class="col s12 m3">
+          <div className="col s12 m3">
             <img
-              class="materialboxed responsive-img"
-              src="https://source.unsplash.com/random/1600x900/?pancake"
+              className="materialboxed responsive-img"
+              src="https://source.unsplash.com/random/800x400/?pancake"
               alt=""
             />
           </div>
-          <div class="col s12 m3">
+          <div className="col s12 m3">
             <img
-              class="materialboxed responsive-img"
-              src="https://source.unsplash.com/random/1600x900/?pizza"
+              className="materialboxed responsive-img"
+              src="https://source.unsplash.com/random/800x400/?pizza"
               alt=""
             />
           </div>
-          <div class="col s12 m3">
+          <div className="col s12 m3">
             <img
-              class="materialboxed responsive-img"
-              src="https://source.unsplash.com/random/1600x900/?pastry"
-              alt=""
-            />
-          </div>
-        </div>
-        <div class="row">
-          <div class="col s12 m3">
-            <img
-              class="materialboxed responsive-img"
-              src="https://source.unsplash.com/random/1600x900/?strawberry"
-              alt=""
-            />
-          </div>
-          <div class="col s12 m3">
-            <img
-              class="materialboxed responsive-img"
-              src="https://source.unsplash.com/random/1600x900/?donut"
-              alt=""
-            />
-          </div>
-          <div class="col s12 m3">
-            <img
-              class="materialboxed responsive-img"
-              src="https://source.unsplash.com/random/1600x900/?cookie"
-              alt=""
-            />
-          </div>
-          <div class="col s12 m3">
-            <img
-              class="materialboxed responsive-img"
-              src="https://source.unsplash.com/random/1600x900/?chocolate"
+              className="materialboxed responsive-img"
+              src="https://source.unsplash.com/random/800x400/?pastry"
               alt=""
             />
           </div>
         </div>
-        <div class="row">
-          <div class="col s12 m3">
+        <div className="row">
+          <div className="col s12 m3">
             <img
-              class="materialboxed responsive-img"
-              src="https://source.unsplash.com/random/1600x900/?juice"
+              className="materialboxed responsive-img"
+              src="https://source.unsplash.com/random/800x400/?strawberry"
               alt=""
             />
           </div>
-          <div class="col s12 m3">
+          <div className="col s12 m3">
             <img
-              class="materialboxed responsive-img"
-              src="https://source.unsplash.com/random/1600x900/?salad"
+              className="materialboxed responsive-img"
+              src="https://source.unsplash.com/random/800x400/?donut"
               alt=""
             />
           </div>
-          <div class="col s12 m3">
+          <div className="col s12 m3">
             <img
-              class="materialboxed responsive-img"
-              src="https://source.unsplash.com/random/1600x900/?coffee"
+              className="materialboxed responsive-img"
+              src="https://source.unsplash.com/random/800x400/?cookie"
               alt=""
             />
           </div>
-          <div class="col s12 m3">
+          <div className="col s12 m3">
             <img
-              class="materialboxed responsive-img"
-              src="https://source.unsplash.com/random/1600x900/?tea"
+              className="materialboxed responsive-img"
+              src="https://source.unsplash.com/random/800x400/?chocolate"
+              alt=""
+            />
+          </div>
+        </div>
+        <div className="row">
+          <div className="col s12 m3">
+            <img
+              className="materialboxed responsive-img"
+              src="https://source.unsplash.com/random/800x400/?juice"
+              alt=""
+            />
+          </div>
+          <div className="col s12 m3">
+            <img
+              className="materialboxed responsive-img"
+              src="https://source.unsplash.com/random/800x400/?salad"
+              alt=""
+            />
+          </div>
+          <div className="col s12 m3">
+            <img
+              className="materialboxed responsive-img"
+              src="https://source.unsplash.com/random/800x400/?coffee"
+              alt=""
+            />
+          </div>
+          <div className="col s12 m3">
+            <img
+              className="materialboxed responsive-img"
+              src="https://source.unsplash.com/random/800x400/?tea"
               alt=""
             />
           </div>
