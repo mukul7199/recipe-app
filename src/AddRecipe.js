@@ -36,8 +36,8 @@ export default class AddRecipe extends Component {
     return (
       <div className="container col s12" style={{ display: "block" }}>
         <h3 className="white-text darken-2 center">
-          Fill The Given Form To
-          <span className="black-text darken-2"> Add Your Own Recipes</span>
+          Add Your
+          <span className="black-text darken-2"> Own Recipes</span>
         </h3>
         <br />
         <div className="col s12 m6">

@@ -8,13 +8,14 @@ import AddRecipe from "./AddRecipe";
 import Signup from "./Signup";
 import AuthenticatedComponent from "./AuthenticatedComponent";
 import Login from "./Login";
-
+import Sidebar from "./Sidebar";
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
         <div>
           <Navbar />
+          <Sidebar />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/recipes" component={Recipes} />

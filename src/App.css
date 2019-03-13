@@ -5,3 +5,58 @@ body {
 .section-follow .fa-4x {
   margin: 5px 10px;
 }
+
+.bm-item {
+  margin-bottom: 10px;
+  color: black;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  color: grey;
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 18px;
+  height: 18px;
+  left: 36px;
+  top: 26px;
+}
+
+.bm-burger-bars {
+  background: white;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: #bdc3c7;
+}
+
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+
+  background-color: whitesmoke;
+}
+
+.bm-morph-shape {
+  fill: burlywood;
+  background-color: whitesmoke;
+}
+
+.bm-item-list {
+  color: burlywood;
+
+  background-color: whitesmoke;
+}
+.bm-overlay {
+  background: white;
+  color: white;
+  background-color: whitesmoke;
+}
