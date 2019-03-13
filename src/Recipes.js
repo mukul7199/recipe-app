@@ -34,16 +34,20 @@ class Recipes extends React.Component {
                     <h4>{recipe.title}</h4>
                     <h5 className="brown-text darken-4">Ingredients: </h5>
 
-                    {recipe.ingredients.map(ingredients => (
-                      <li>{ingredients}</li>
-                    ))}
+                    <ul>
+                      {recipe.ingredients.map(ingredients => (
+                        <li>{ingredients}</li>
+                      ))}
+                    </ul>
                   </li>
                   <li>
                     <h5 className="brown-text darken-4">Steps: </h5>
 
-                    {recipe.steps.map(step => (
-                      <li>{step}</li>
-                    ))}
+                    <ul>
+                      {recipe.steps.map(step => (
+                        <li>{step}</li>
+                      ))}
+                    </ul>
                   </li>
                 </ul>
               }
@@ -53,11 +57,8 @@ class Recipes extends React.Component {
       ));
     } else
       return (
-
         <div className="progress brown lighten-3">
           <div className="indeterminate brown darken-3" />
-
-
         </div>
       );
   }

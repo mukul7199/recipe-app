@@ -1,30 +1,45 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
+  const activeStyles = {
+    background: "#8B4513"
+  };
   return (
     <div>
       <nav className="brown darken-2">
         <div className="container">
           <div className="nav-wrapper">
-            <Link to="#" className="brand-logo">
+            <NavLink to="#" className="brand-logo">
               RecipeApp
-            </Link>
+            </NavLink>
 
             <ul className="right hide-on-med-and-down">
               <li>
-                <Link to="/">Home</Link>
+                <NavLink exact to="/" activeStyle={activeStyles}>
+                  Home
+                </NavLink>
               </li>
               <li>
-                <Link to="/recipes">Recipes</Link>
+                <NavLink exact to="/recipes" activeStyle={activeStyles}>
+                  Recipes
+                </NavLink>
               </li>
               <li>
-                <Link to="/recipes/add">Add Recipe</Link>
+                <NavLink to="/recipes/add" activeStyle={activeStyles}>
+                  Add Recipe
+                </NavLink>
               </li>
               <li>
-                <Link to="/signup">Signup</Link>
+                <NavLink to="/signup" activeStyle={activeStyles}>
+                  Signup
+                </NavLink>
               </li>
-              
+              <li>
+                <NavLink to="/login" className="btn brown">
+                  Login
+                </NavLink>
+              </li>
             </ul>
           </div>
         </div>
