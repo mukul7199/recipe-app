@@ -10,12 +10,15 @@ import AuthenticatedComponent from "./AuthenticatedComponent";
 import Login from "./Login";
 import Sidebar from "./Sidebar";
 class App extends Component {
+  state = {
+    user: undefined
+  };
   render() {
     return (
       <BrowserRouter>
         <div>
           <Navbar />
-          <Sidebar />
+          <Sidebar className="hide-on-large-only" />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/recipes" component={Recipes} />

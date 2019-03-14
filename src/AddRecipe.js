@@ -29,7 +29,10 @@ export default class AddRecipe extends Component {
         steps: this.state.steps,
         image: this.state.image
       })
-    }).then(recipe => console.log(recipe));
+    }).then(recipe => {
+      console.log(recipe);
+      this.props.history.push("/recipes");
+    });
   };
 
   render() {
