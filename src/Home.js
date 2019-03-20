@@ -1,11 +1,11 @@
 import React from "react";
-// import Slid from "./Slider";
+import Slid from "./Slider";
 import Popularimages from "./Popularimages";
 import Follow from "./Follow";
 const Home = () => {
   return (
     <div>
-      {/* <Slid /> */}
+      <Slid />
       <Popularimages />
       <Follow />
     </div>
