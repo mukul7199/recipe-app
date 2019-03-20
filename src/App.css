@@ -51,12 +51,12 @@ body {
 }
 
 .bm-item-list {
-  color: burlywood;
+  color: whitesmoke;
 
   background-color: whitesmoke;
 }
 .bm-overlay {
-  background: white;
+  background: #9f6446;
   color: white;
   background-color: whitesmoke;
 }

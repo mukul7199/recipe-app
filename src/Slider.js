@@ -31,23 +31,29 @@ const Slid = () => {
           <div className="row ">
             <div className="col s12 m4">
               <div className="card-panel brown lighten-2 black-text">
-                <i className="fa fa-users fa-3x deep-cyan-text text-darken-2 medium" />
-                <h4>Free Account</h4>
+                <a href="/signup" style={{ color: "black" }}>
+                  <i className="fa fa-users fa-3x deep-cyan-text text-darken-2 medium" />
+                  <h4>Free Account</h4>
+                </a>
               </div>
             </div>
 
             <div className="col s12 m4">
               <div className="card-panel brown lighten-2 black-text">
-                <i className="fa fa-utensils fa-3x deep-cyan-text text-darken-2 medium" />
-                <h4>View Recipes</h4>
+                <a href="/recipes" style={{ color: "black" }}>
+                  <i className="fa fa-utensils fa-3x deep-cyan-text text-darken-2 medium" />
+                  <h4>View Recipes</h4>
+                </a>
               </div>
             </div>
 
             <div className="col s12 m4">
               <div className="card-panel brown lighten-2 black-text">
-                <i className="fa fa-hamburger fa-3x deep-cyan-text text-darken-2 medium" />
+                <a href="/recipes/add" style={{ color: "black" }}>
+                  <i className="fa fa-hamburger fa-3x deep-cyan-text text-darken-2 medium" />
 
-                <h4>Add Recipes</h4>
+                  <h4>Add Recipes</h4>
+                </a>
               </div>
             </div>
           </div>
